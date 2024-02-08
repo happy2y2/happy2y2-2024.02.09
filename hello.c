@@ -2,21 +2,19 @@
 
 int main(void)
 {
-    int result; 
-    int num1, num2;
+    //복합 대입 연산자~
+    
+    int num1=3;         
+    int num2=5;         
+    int num3=8;
+    int num4=10;
 
-    printf("정수 one: 3");
-    scanf("%d", &num1);
-    printf("정수 two: 4");
-    scanf("%d", &num2);
+    num1 += 3;          // num1 = num1 + 3;
+    num2 -= 2;          // num2 = num2 - 2;
+    num3 *= 4;          // num3 = num3 * 4;
+    num4 %= 5;          // num4 = num4 % 5;
 
-    result=num1+num2;
-    printf("%d + %d = %d \n", num1, num2, result);
-
-
-   //주석 추가 했음
-
-   //주석 또 추가 하고 thrid commit 으로 바꿀거임
+    printf("Result: %d, %d, %d, %d \n",num1, num2, num3, num4);
 
     return 0;
 }
