@@ -13,5 +13,8 @@ int main(void)
     result=num1+num2;
     printf("%d + %d = %d \n", num1, num2, result);
 
+
+   //주석 추가 했음
+
     return 0;
 }
