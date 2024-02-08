@@ -16,5 +16,7 @@ int main(void)
 
    //주석 추가 했음
 
+   //주석 또 추가 하고 thrid commit 으로 바꿀거임
+
     return 0;
 }
