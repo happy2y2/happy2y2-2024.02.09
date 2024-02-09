@@ -2,6 +2,8 @@
 
 int main(void)
 {
+    //문제1: 두개의 정수를 받아서 뺼셈과 곱셈하기
+
     int result1, result2;
     int num1, num2;
 
