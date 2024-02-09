@@ -2,17 +2,17 @@
 
 int main(void)
 {
-    //문제3 하나의 정수를 입력받아서, 그 수의 제곱을 만들자
+    //문제2: num1xnum2+num3 만들기
 
-    int result1;
-    int num1;
+    int result1
+    int num1, num2, num3;
 
-    printf("하나의 정수:");
-    scanf("%d \n", &num1);
+    printf("세개의 정수 입력:");
+    scanf("%d %d %d\n", &num1, &num2, &num3);
 
-    result1=num1*num1;
+    result1=num1*num2+num3;
 
-    printf("%d \n", result1);
-
+    printf("%d * %d + %d = %d \n", num1, num2, num3, result1);
     return 0;
+
 }
